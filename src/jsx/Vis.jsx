@@ -168,7 +168,7 @@ class Vis extends Component {
   getCountryColor(country) {
     if (this.props.data[country] !== undefined) {
       if (this.props.data[country][this.dates[this.state.year_idx]] > 100) {
-        return 'rgba(255, 0, 0, ' + ((this.props.data[country][this.dates[this.state.year_idx]]) / 1) / _.max((_.values(this.props.data[country]))) + ')';
+        return 'rgba(0, 0, 255, ' + ((this.props.data[country][this.dates[this.state.year_idx]]) / 1) / _.max((_.values(this.props.data[country]))) + ')';
       }
       else {
         return '#fff';
