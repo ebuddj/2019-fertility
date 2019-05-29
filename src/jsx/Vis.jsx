@@ -39,7 +39,7 @@ class Vis extends Component {
     let width = 320;
     let height = 500;
 
-    let projection = d3.geoMercator().center([58,57]).scale(400);
+    let projection = d3.geoAzimuthalEquidistant().center([58,57]).scale(400);
     
     let svg = d3.select('.' + style.map_container).append('svg').attr('width', width).attr('height', height);
     path = d3.geoPath().projection(projection);
