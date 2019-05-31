@@ -37,9 +37,9 @@ class Vis extends Component {
     let self = this;
 
     let width = 320;
-    let height = 500;
+    let height = 420;
 
-    let projection = d3.geoAzimuthalEquidistant().center([58,57]).scale(400);
+    let projection = d3.geoAzimuthalEquidistant().center([52,44]).scale(550);
     
     let svg = d3.select('.' + style.map_container).append('svg').attr('width', width).attr('height', height);
     path = d3.geoPath().projection(projection);
@@ -231,7 +231,7 @@ class Vis extends Component {
             <Tooltip formatter={(value, name, props) => {
               return [value.toLocaleString() + ' live births'];
             }}/>/>
-            <Line type="linear" dataKey="value" stroke="#f00" strokeWidth={2} dot={false} />
+            <Line type="linear" dataKey="value" stroke="#00f" strokeWidth={2} dot={false} />
           </LineChart>
         </ResponsiveContainer>
       </div>
