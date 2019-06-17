@@ -4,12 +4,12 @@ import style from './../styles/styles.less';
 // https://alligator.io/react/axios-react/
 import axios from 'axios';
 
-// https://d3js.org/
+// https://underscorejs.org/
 import _ from 'underscore';
 
 import Vis from './Vis.jsx';
 
-class Layout extends Component {
+class App extends Component {
   constructor() {
     super();
     
@@ -41,4 +41,4 @@ class Layout extends Component {
     );
   }
 }
-export default Layout;
+export default App;
