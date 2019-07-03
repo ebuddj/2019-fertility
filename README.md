@@ -6,5 +6,5 @@ Fertility in European countries have declined over the past decades. Visualizati
 
 ## How to use
 
-`npm install`
-`npm start`
+* `npm install`
+* `npm start`
