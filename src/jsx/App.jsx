@@ -33,7 +33,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className={style.app}>
         <h3>Live births per country from 1960 to 2017</h3>
         <Vis data={this.state.data}/>
         <p>Source: <a href="https://ec.europa.eu/eurostat/web/population-demography-migration-projections/data/database">Eurostats</a></p>
