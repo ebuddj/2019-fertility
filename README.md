@@ -2,7 +2,7 @@
 
 **Live demo** https://ebuddj.github.io/2019-fertility/
 
-## Fertility rates in European countries (EBU)
+## Fertility Rates in European Countries (EBU)
 
 Fertility in European countries have declined over the past decades. Visualization show how the number of new babies have changed in each country from 1960 to 2017. In most countries the decrease is steady but in some countries there is more fluctuation and even some increase.
 
